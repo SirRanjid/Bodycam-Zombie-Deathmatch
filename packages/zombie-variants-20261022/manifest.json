@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0-candidate",
+  "created_utc": "2026-10-22T19:56:22.204992+00:00",
+  "supported_exe_sha256": "2792ea9a5e062bfc69883f496e9517d2f1308ca573dade7f8db108f722db127c",
+  "supported_ue4ss_sha256": "ce5e3c46a920cc00b2817ac61e438c9162830290379d0b5b9c4dfc2b29459290",
+  "offline_checks_passed": 1998,
+  "live_game_verified": false,
+  "candidate_scope": "ambient_round_end",
+  "baseline_archive_sha256": "a5f2f564e4488d31e3a89f0e935e96bbfacb48b4de797ff1b2eef0b895884c09",
+  "reviewed_source_sha256": {
+    "variant_ai.lua": "eddd1905a086852c89d180fb815a03c6904ecdf713b07d0dacae66428f812382",
+    "variant_controller.lua": "22cea58f16b02403e8a72b6709556472250b91eb55fdd0cdaef9e5abe79bbbf3",
+    "variant_time.lua": "264752080e5315c18a676bd605d9501e7124d7ebbf4d1653a04df1f778fa61de"
+  },
+  "files": {
+    "BodycamZombieVariants/enabled.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "BodycamZombieVariants/Native/bodycam_variants_native.dll": "4351cf396e9b448f20894d8b7864372f60fce6f635995bcafa3d77756f2587ba",
+    "BodycamZombieVariants/Native/MinHook-LICENSE.txt": "d5c2224982b0b95a16b098a561335fa93f3eaf4d0aa964b7843edb986df78dc8",
+    "BodycamZombieVariants/README.md": "b032972ab7cef25cc61647674979447d39f2a5206512d6d4f99aa1c389182f9a",
+    "BodycamZombieVariants/Scripts/main.lua": "61f8bb90fb7c2ecf36ace9cd1a074b4a9caf6029593860b50baaab1babb051f7",
+    "BodycamZombieVariants/Scripts/variant_ai.lua": "eddd1905a086852c89d180fb815a03c6904ecdf713b07d0dacae66428f812382",
+    "BodycamZombieVariants/Scripts/variant_controller.lua": "22cea58f16b02403e8a72b6709556472250b91eb55fdd0cdaef9e5abe79bbbf3",
+    "BodycamZombieVariants/Scripts/variant_corpses.lua": "cc7e9f27e820946ec320e48b052714f8316c26050ad90472c008de68fff98bed",
+    "BodycamZombieVariants/Scripts/variant_damage.lua": "68bd42667f7f4bcba7d404d8cd90e63a3c4363b97395a80b30b8fa73320249d5",
+    "BodycamZombieVariants/Scripts/variant_events.lua": "7723a38adc003d9f2c48cc96cbced3b0dc3e72cf876ff2541a35ff31b94aeba2",
+    "BodycamZombieVariants/Scripts/variant_modes.lua": "5cac74f28da51b775027197f8fbede5215510e2be30715c459c0591d8b5f9578",
+    "BodycamZombieVariants/Scripts/variant_native_ai.lua": "8e19e8faa6189cda50cd0ba7ec8586cb0547680fd26f5f0d2727233b71a1acec",
+    "BodycamZombieVariants/Scripts/variant_round_audio.lua": "b2eafa859d59c762ca0f04214180d997c1ca2049480027e58c09728f0a6bf179",
+    "BodycamZombieVariants/Scripts/variant_runtime.lua": "5d56d131d34d2aae117620c89ddab66fa568ce62c148b84b24035cd3b2a0a743",
+    "BodycamZombieVariants/Scripts/variant_score.lua": "6277d2c20eb4f16f7ed37628058e6ab7c87dfcdd9b49e515bbc806eda31ac008",
+    "BodycamZombieVariants/Scripts/variant_time.lua": "264752080e5315c18a676bd605d9501e7124d7ebbf4d1653a04df1f778fa61de",
+    "BodycamZombieVariants/Scripts/variant_vocals.lua": "ed87e6aa071d874623d5e9f6470a536a9190d0fbdf77d6d1323b10d09f57a37b"
+  }
+}
