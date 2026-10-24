@@ -1,0 +1,64 @@
+{
+  "published_dll_sha256": "4351cf396e9b448f20894d8b7864372f60fce6f635995bcafa3d77756f2587ba",
+  "published_dll_bytes": 199168,
+  "published_dll_path": "mod/BodycamZombieVariants/Native/bodycam_variants_native.dll",
+  "original_compiler": "Zig 0.15.2 cc x86_64-windows-gnu",
+  "original_native_tests": [
+    {
+      "suite": "score_filter_tests.exe",
+      "passed": 31,
+      "failed": 0,
+      "output": "31 native score-filter checks passed."
+    },
+    {
+      "suite": "xp_gate_tests.exe",
+      "passed": 38,
+      "failed": 0,
+      "output": "38 native Blueprint-XP gate checks passed."
+    },
+    {
+      "suite": "reward_policy_tests.exe",
+      "passed": 299,
+      "failed": 0,
+      "output": "Reward policy: bounded per-team integer fifths verified.\n299 native reward checks passed."
+    },
+    {
+      "suite": "native_bridge_tests.exe",
+      "passed": 865,
+      "failed": 0,
+      "output": "Native bridge: 865 checks passed, including six real x64 detours; game untouched."
+    }
+  ],
+  "original_native_checks": 1233,
+  "production_source_sha256": {
+    "native-platform/native_bridge.c": "398c596ede68efb5f4036f37af04332f4e290ae97ec50375412c879a10a01c5e",
+    "native-platform/native_bridge_tests.c": "30f70fea80a0815d589b334bf997b900fa149ee4bd857875b594a827bd680fb3",
+    "native-platform/build_pin.h": "bc2cd39b4221c284cad0047a93e53e4bcfb7a1adc48c67419ccd59065f369a8c",
+    "native-score/score_filter.c": "1857699822ea43bd55de6eef1fb1c373bfe876b40fe55e46b4bda8243b7317be",
+    "native-score/score_filter.h": "c1171dea5e476029f82651a5f4eb52ccdbde6067732613406d23549984358166",
+    "native-score/score_filter_tests.c": "7dd96a6f52f5eb4b5256fae50716cef65fcc5d0c823892bae6a5d7bf81cec53a",
+    "native-score/xp_gate.c": "351edf5e1cf8270a534211518f37ab6c83a34dfcfbf04f3542f683f86f0fdf75",
+    "native-score/xp_gate.h": "08e4be08689349f0859bd19b3a1f40e3df7145802e623e8901256c2ca083b856",
+    "native-score/xp_gate_tests.c": "1a6953693b31f4c7152c48b837c7c3b87c01e347b247e2dc5d91ae4ff1b4e968",
+    "native-score/reward_policy.c": "fde589072dd36d07e5e9b96023201cd15224df3911d540978bc83764aa3c1df3",
+    "native-score/reward_policy.h": "517c22d909c8df967a078777836febed50960554c1eb53bcb9a5da79d6affccc",
+    "native-score/reward_policy_tests.c": "3c0bb9dea0dfff7a47f6df8b0d513feb06fc41bab2102b5dd690d09ee5808838"
+  },
+  "dependencies": [
+    {
+      "url": "https://ziglang.org/download/0.15.2/zig-x86_64-windows-0.15.2.zip",
+      "sha256": "3a0ed1e8799a2f8ce2a6e6290a9ff22e6906f8227865911fb7ddedc3cc14cb0c",
+      "file": "zig-0.15.2.zip"
+    },
+    {
+      "url": "https://codeload.github.com/TsudaKageyu/minhook/zip/refs/tags/v1.3.4",
+      "sha256": "172708123daa0c98d20d3a980b16a50be14af243dc95dee6f79c24193ad010e4",
+      "file": "minhook-v1.3.4.zip"
+    }
+  ],
+  "notes": [
+    "Production C and header files are byte-identical to the recorded build inputs.",
+    "The public build wrapper changes only output/cache paths and uses the checked-in frozen build_pin.h.",
+    "No game executable, UE4SS DLL, extracted assets or local diagnostics are included."
+  ]
+}
